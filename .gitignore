@@ -4,7 +4,7 @@ libft/libft.a
 a.out
 libftprintf.a
 main.c
-printfTester/
+printfTester/|
 francinette/
 obj/
 

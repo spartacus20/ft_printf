@@ -6,7 +6,7 @@
 /*   By: jotomas- <jotomas-@student.42london.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/13 13:26:33 by jotomas-          #+#    #+#             */
-/*   Updated: 2023/12/18 13:26:47 by jotomas-         ###   ########.fr       */
+/*   Updated: 2023/12/18 14:29:57 by jotomas-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	ft_print_number(int num)
 
 	count = 0;
 	str = ft_itoa(num);
-	count  += ft_print_string(str);
+	count += ft_print_string(str);
 	free(str);
 	return (count);
 }

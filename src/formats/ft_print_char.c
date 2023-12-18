@@ -6,7 +6,7 @@
 /*   By: jotomas- <jotomas-@student.42london.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/18 11:58:16 by jotomas-          #+#    #+#             */
-/*   Updated: 2023/12/18 12:55:09 by jotomas-         ###   ########.fr       */
+/*   Updated: 2023/12/18 14:31:17 by jotomas-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,5 +24,5 @@ int	ft_print_char(char c)
 	count = 0;
 	ft_putchar(c);
 	count++;
-	return count;
+	return (count);
 }

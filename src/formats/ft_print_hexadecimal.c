@@ -6,7 +6,7 @@
 /*   By: jotomas- <jotomas-@student.42london.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/18 14:12:27 by jotomas-          #+#    #+#             */
-/*   Updated: 2023/12/18 14:18:10 by jotomas-         ###   ########.fr       */
+/*   Updated: 2023/12/18 14:31:42 by jotomas-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ int	ft_len_hex(unsigned int num)
 	}
 	return (len);
 }
+
 void	ft_put_hex(unsigned int num, const char format)
 {
 	if (num >= 16)
@@ -44,6 +45,7 @@ void	ft_put_hex(unsigned int num, const char format)
 		}
 	}
 }
+
 int	ft_print_hex(unsigned int num, char format)
 {
 	if (num == 0)

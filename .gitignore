@@ -1,0 +1,10 @@
+.vscode
+libft/*.o
+libft/libft.a
+a.out
+libftprintf.a
+main.c
+printfTester/
+francinette/
+obj/
+
